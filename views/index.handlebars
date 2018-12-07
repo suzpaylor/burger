@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col s6">
-        <h2>Burgers Added</h2>
+        <h3>Burgers Added</h3>
         {{#each burgers}}
           {{#unless this.devoured}}
             <div>
@@ -17,7 +17,7 @@
       </div>
 
       <div class="col s6">
-        <h2>Burgers Consumed</h2>
+        <h3>Burgers Consumed</h3>
         {{#each burgers}}
           {{#if this.devoured}}
             <div class='burgerEaten'>

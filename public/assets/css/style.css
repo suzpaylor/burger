@@ -76,6 +76,13 @@ h2 {
     margin: 50px;
 }
 
+h3 {
+    text-align: center;
+   font-family: 'Josefin Slab', serif;
+   color: #3b4a4d;
+   margin: 50px;
+}
+
 .formContainer {
     background-color: #30c9e8;
 }
